@@ -1,0 +1,88 @@
+*{margin:0;padding:0;}
+
+
+body{font-family:serif;/* background:#ddd; */}
+
+.email_template{position: absolute;left: 50%;top: 50%;transform:translate(-50%,-50%);}
+
+.email_template::before {
+    content: "";
+    width: 50%;
+    height: 45px;
+   background:linear-gradient(-3deg,#e83a3a,#19bcde);
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    transform: skewY(0deg);
+}
+
+
+.email_template:after {
+    content: "";
+    width: 50%;
+    height: 45px;
+    background:linear-gradient(3deg,#e83a3a, #19bcde);
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    transform: skewY(0deg);
+}
+
+
+.container{width:762px;height:315px;position:relative;border-top:1px solid #48dbfb;;}
+
+.visiting_card{width:700px;height:200px;margin:30px;position:relative;
+	    box-shadow: -2px 6px 2px 3px #d5d5d2;}
+
+.image img{width:143px;height:137px;float:left;
+	position:absolute;top:11%;left:2%; box-shadow: -1px 2px 1px 6px #d5d5d2;}
+
+
+.sm img{width:20px;height:20px;}
+
+
+.person_info {
+    float: right;
+    position: absolute;
+    left: 179px;
+    top: 12px;
+}
+
+.person_info h1{color: #48dbfb;}
+
+
+}
+.person_info h2 {
+    margin-top: -9px;
+    font-size: 19px;
+    margin-bottom: 19px;color: #020b1482;
+}
+
+   .person_info h2 span{ border-right: 2px solid #123;color:#123;
+    padding-right: 6px;}
+
+
+.person_info h2:nth-child(1):after{content:'';width:3px;height:3px;position: absolute;top: 20%;left:30%;background:#fff;}
+
+.logo {
+    position: absolute;
+    right: 3%;
+    top: 61%;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+
+.sm {
+    position: absolute;
+    bottom: -53px;
+    left: 36px;
+}
+
+
+.sm a {padding: 10px;}
+
+
+.person_info h4 {
+    padding: 4px;
+}

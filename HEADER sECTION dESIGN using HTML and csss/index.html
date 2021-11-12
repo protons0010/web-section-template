@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Header Section Design </title>
+	<link rel="stylesheet" type="text/css" href="image/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<section class="header">
+		<div class="hero">
+			<div class="nav_Bar">
+				<div class="nav_logo">
+					<h2>ThemeCity</h2>
+				</div>
+				<div class="nav_links">
+				<i class="fa fa-close" onclick="hideMenu()"></i>
+					<ul>
+						<a href="#"><li>Home</li></a>
+						<a href="#"><li>About</li></a>
+						<a href="#"><li>Service</li></a>
+						<a href="#"><li>Team</li></a>
+						<a href="#"><li>Contact</li></a>
+					</ul>
+					<button type="button" class="btn">Sign up</button>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</div>
+			<div class="banner_Title">
+				<h1>Health <span> is Wealthy.<br> Good Food is can build </span> a good body structure  </h1>
+				<button type="button" class="btn">More Here</button>
+			</div>
+			<div class="vertical_bar">
+				<div class="search_icon">
+					<i class="fa fa-th-list" aria-hidden="true"></i>
+					<i class="fa fa-search"  aria-hidden="true"></i>
+				</div>
+				<div class="social_icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-pinterest"></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<script>
+	var show = document.querySelector(".nav_links");
+	function showMenu(){
+       show.style.right = "0"
+	}
+	function hideMenu(){
+		show.style.right = "-2000px";
+	}
+</script>
+
+
+</body>
+</html>

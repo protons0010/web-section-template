@@ -1,0 +1,45 @@
+
+*{margin:0;padding:0;}
+
+.navBar {background:aqua;}
+
+.logo {padding:5px;display:inline-block;}
+
+.menu {display:inline-block;float:right;}
+
+ul {margin: 10px;}
+
+li {display:inline-block;padding:10px;}
+
+a {text-decoration:none;}
+
+.left{display:grid;margin:0px 13px 0px 0px;background:aqua;}
+
+
+
+.left img{width: 130px;height: 90px;display: inline-block;}
+
+h2 {background:red;height:35px;text-align:left;text-transform:capitalize;padding:10px;}
+
+.items {
+    width: 560px;
+    margin: 20px auto;
+}
+
+.coffe{margin:10px 0px;}
+
+
+.coffe_Details {
+    display: inline-flex;
+}
+
+
+button {
+    padding:8px 0px;
+    background: sienna;
+}
+
+span {
+    font-size: 16px;text-align:center;
+    padding: 10px 0px;
+}

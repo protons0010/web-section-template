@@ -1,0 +1,37 @@
+body{padding:0;margin:0;background: url(home-bg.png);}
+
+
+
+
+.login_form {
+    background:#123;
+    color: white;
+    transition: all .222s;
+    box-shadow: 31px 17px 59px 0 rgba(0,0,0,0.99);
+    width:500px;
+    height:500px;
+    border-radius:55%;
+    text-align: center;
+    margin-left:10px;
+    margin:auto;
+    position: absolute;
+    top:10%;
+    left:7%;
+    transform:(-50%,-50%);
+    border:3px solid orange;
+    }
+
+.login_form form{margin-top:20%;}
+
+
+.login_form .hasan{text-align:left;font-size: 20px;margin-bottom:20px;}
+
+.login_form input{margin-top: 10px;text-align:left;border:.8px solid #1293de;background:none;padding:6px;border-radius:3px;color:#ffffff;}
+
+  h6{  font-size: 26px;
+    margin-top: -3px;
+    padding-top: 20px;
+    margin-bottom: 24px;}
+
+
+.btn{padding:12px 12px 12px 12px;border:1px solid orange;background:#2122;margin-right:15px;color:#fff;}

@@ -1,0 +1,78 @@
+
+@import "index.html"
+
+*{margin:0;padding:0;}
+
+body{margin:0;padding:0;}
+
+.hero{height:100vh;background-image:linear-gradient(#020b13fa,#11222280),url(image/1.jpg);
+background-position:center;background-size:cover;overflow-x:hidden;position:relative;}
+
+.nav_Bar{display:flex;padding:40px 120px;}
+
+
+.nav_logo h2 {font-family:cursive;font-size:50px;color:#fff;display:inline;}
+
+
+.nav_links{flex:1;height:100vh;width:200px; }
+
+.nav_links ul{margin-left:50px;display:inline-block;}
+
+
+.nav_links ul li {list-style:none;display:inline-block;padding:8px 25px;color:#FFF;font-size: 20px;}
+
+.nav_links ul a{color:#fff;text-decoration:none;font-size:13px;}
+
+
+.nav_links ul li::after{content:'';width:0;height:2px;background:yellow;display:block;margin:auto;transition:all .4s;}
+
+
+.nav_links ul li:hover::after{width:100%;}
+
+.btn{padding:10px 20px;border:0;background-color:#00bcd4;font-weight:bold;border-radius:12px;margin-top: 20px;
+cursor:pointer;}
+
+.nav_links .btn{float:right;}
+
+
+.banner_Title{margin:80px 130px;color:#fff;}
+
+.banner_Title h1{font-size:64px;margin-bottom:30px;}
+
+.banner_Title h1 span{color:yellow;}
+
+
+.vertical_bar{height:100%;background:#000;top:0;left:0;position:absolute;}
+
+.search_icon{height:60%;width:80px;}
+
+
+.search_icon .fa{margin:45px 23px;display:block;color:#fff;font-size:30px;
+cursor:pointer;}
+
+.social_icons{height:45%;width:80px;background:aqua;text-align:center;
+padding-top:27%;bottom:0;position:absolute;}
+
+.social_icons .fa:hover{background-color:#00bcd4;}
+
+.social_icons a:hover {margin-top:12px;}
+
+.social_icons .fa{margin:12px 23px;display:block;padding: 8px;
+	border:1px solid #000;cursor:pointer;border-radius:50%;}
+
+
+@media (max-width:700px){
+	.vertical_bar{display:none;}
+	.banner_Title{margin:80px 40px;}
+	.banner_Title h1{font-size:40px;}
+
+	.nav_links{background:#000;
+	top:0;right:-200px;position:absolute;text-align:left;z-index:999;
+	transition:.5s;}
+
+	.nav_links ul{margin-left:0;margin:12px;}
+
+    .nav_links ul li{padding: 8px 8px;}
+
+    .btn{margin-top: 17px;}
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An awesome single page portfolio html temlplate.You can easilty design your portfolio website using this temlplate">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sticky mobile menu navigation go to top</title>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/img/favicon.png">    
+    <!-- RESOURCES FILES -->
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+  <header id="home">
+    <nav>        
+        <ul class="main-nav">
+          <li class="active"><a href="#home">Home</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#about">Team</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#award">award</a></li>
+          <li><a href="#testimonial">testimonial</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+        <div class="mobile_menu">
+           <span onclick="openNav()">&#9776;</span>
+           <div id="myNav" class="overlay">
+                 <a href="javascript:void()" onclick="closeNav()" class="closebtn">&times;</a>
+                 <div class="overlay_content">
+                     <a class="closeNav()" href="#home">Home</a>      
+                     <a class="closeNav()" href="#service">Service</a>      
+                     <a class="closeNav()" href="#work">Team</a>      
+                     <a class="closeNav()" href="#about">Skill</a>      
+                     <a class="closeNav()" href="#award">award</a>      
+                     <a class="closeNav()" href="#testimonial">testimonial</a>      
+                     <a class="closeNav()" href="#contact">contact</a>      
+                </div>
+          </div>
+        </div>
+    </nav>
+</header>
+<!-- END HEADER SECTION-->
+<section class="service" id="service"></section>
+
+<section class="work" id="work"></section>
+
+<section class="about" id="about"></section>
+
+<section class="contact" id="contact"></section>
+
+<section class="testimonial" id="testimonial"></section>
+
+<section class="award" id="award">
+  
+  <div class="button_Go_up"></div>
+
+   <a class="go_top_btn" href="#"><i class="fa fa-arrow-up"></i></a>
+
+
+</section>
+
+
+
+   <!-- JS SCRIPTS -->
+   <script src="jquery.min.js"></script>
+   <script src="main.js"></script>
+</body>
+</html>

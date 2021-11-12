@@ -1,0 +1,45 @@
+*{margin:0;padding:0;}
+
+body{background:#ddd;}
+
+.Pricing_table{max-width:1200px;margin:auto;display:flex;
+	justify-content:center;align-items:center;flex-wrap:wrap;background:#ddd;}
+
+
+.columns{width:320px;box-sizing:border-box;flex:22%;background:#fff;margin:20px 11px;text-align: center;
+overflow: hidden;padding:56px 32px;position:relative;border-bottom-left-radius:12px;border-bottom-right-radius:12px;}
+
+
+
+
+.columns ul{margin:0px 0px; }
+
+
+.columns li {list-style:none;padding:10px 0px; }
+
+.columns li:nth-child(4){padding-bottom:20px;}
+
+.columns a{border:1px solid orange;background:red;padding:10px 0px;margin:12px 0px;text-decoration:none;overflow:hidden;
+	display:block;text-transform:uppercase;}
+
+.table_header{display:block;padding:20px 13px;}
+
+
+.table_header h1{font-size:23px;}
+
+
+.popular{position:absolute;top:15px;right:-46px;transform:rotate(45deg);padding:10px 53px;font-size:17px;
+	background:#123;color:#fff;}
+
+
+@media (max-width:980px){
+	.columns{flex:32%;margin:10px 10px;}
+    .columns:nth-child(3),
+.columns:nth-child(4){border-top-right-radius:12px;border-top-left-radius:12px;}
+
+}
+
+@media (max-width:700px){
+	.columns{flex:36%;}
+	
+}

@@ -1,0 +1,37 @@
+*{margin:0;padding:0;font-family:sans-serif;background:#0601017a;
+	/*background:radial-gradient(red,green,blue);background-repeat:no-repeat;
+
+	background-size:cover;*/}
+
+.container{position: absolute;top: 50%;left:50%;transform:translate(-50%,-50%);
+	max-width: 600px;padding:2rem;background:#0601017a;;
+box-sizing: border-box;box-shadow:-1px -1px 30px rgba(0,0,0,.5);
+border-radius:12px;text-align: center;}
+
+form{background:#0601017a;border-top-right-radius:2rem;border-bottom-left-radius:2rem;color:#ddd;padding-bottom:16px;}
+
+.container h2{color:#fff;font-family: cursive;font-size:1rem;
+font-weight:100;}
+
+input{width:60%;padding:0.8rem;;margin-top:.9rem;
+	border-radius:20px;border:none;color: #ddd;}
+
+input:hover{background:#af2e21;color:#ddd;font-size:.8rem;}
+
+button{width: 20%;padding:0.8rem;background-color:#0071ff;border:none;border-radius: 5px;color: #ddd;
+	display: block;text-align: center;margin:24px auto;}
+
+button:hover{background:#394bea;box-shadow:-1px -1px 30px #0071ff, -1px -1px 44px #0601017a;
+opacity:0.5,0.9;}
+
+.have_Accout {background:#0601017a;border-top-right-radius:2rem;border-bottom-left-radius:2rem;}
+
+.have_Accout h2{padding:2rem;background-color:#0601017a;border:none;outline: none;background:#0601017a;
+	border-top-right-radius:2rem;border-bottom-left-radius:2rem;}
+.have_Accout h2 a{color:red;text-decoration:none;}
+.have_Accout h2 a:hover{text-decoration: underline;font-weight:900;}
+
+
+@media screen and (max-width:768px){
+	button{width:37%;}
+}

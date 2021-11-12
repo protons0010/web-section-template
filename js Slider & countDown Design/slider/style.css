@@ -1,0 +1,34 @@
+body{margin:0;padding:0;background:#123;}
+
+
+
+.slider{width:800px;height:500px;background:url(2.jpg);
+	animation-name:hasan;animation-duration:4s;animation-direction:alternate-reverse;
+	animation-iteration-count:infinite;top:50%;left:50%;transform:translate(100px,100px);border-radius:23px;}
+
+
+@keyframes hasan{
+	from{background-color:red;}
+	to{background-color:yellow;}
+
+	0%{background-image:url(1.jpg);background-position:center;background-size: cover;}
+
+	25%{background-image:url(2.jpg);background-position:center;background-size: cover;}
+
+	50%{background-image:url(3.jpg);background-position:center;background-size: cover;}
+
+    75%{background-image:url(4.jpg);background-position:center;background-size: cover;}
+
+	100%{background-image:url(5.jpg);background-position:center;background-size: cover;}
+}
+
+
+
+
+
+
+
+
+
+
+

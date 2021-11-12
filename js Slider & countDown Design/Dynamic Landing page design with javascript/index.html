@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CounDown Timing Design Template</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="blocks">
+	<h1>We currently work for our bussiness website</h1>
+       <div class="dateContent">
+       <div id="hasan"></div>  
+          <div class="date">
+			<span>Hours</span>
+			<span>Minute</span>
+			<span>Second</span>
+	      </div>
+	</div>
+     	
+	 <h3>Connect with us</h3>
+	 <div class="sm">
+			   	 <a href="#"><i class="fa fa-reddit" aria-hidden="true"></i></a>
+			   	 <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+			   	 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			   	 <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+	
+	  function timenow(){
+    	var dateObject = new Date();
+
+  var hours = dateObject.getHours();
+  var minutes = dateObject.getMinutes();
+  var seconds = dateObject.getSeconds();
+  var currenttime =hours +" : "+ minutes +" : "+ seconds+ " "+" PM";
+  document.querySelector("#hasan").innerHTML = currenttime;
+} 
+setInterval(timenow,1000);
+</script>
+</body>
+</html>

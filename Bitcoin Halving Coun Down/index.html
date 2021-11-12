@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1">
+	<title>Bitcoin Halving  Count Down</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<section class="bitcoin">
+
+		 <div class="top_div">
+		 	<h1>Bitcoin Halving<br> Countdown</h1>
+		    <button>Share</button>
+		 </div>
+		<div class="image">
+				<img src="image/3.jpg">
+		</div>
+
+
+		 <div class="count_down_div">
+           
+
+		  </div>
+		 
+
+		 <div class="curent_block">
+		 	<img src="image/1.jpg">
+		 	<h2>Current block height</h2>
+		 	<i>629,927</i>
+		 </div>
+		 <div class="curent_block">
+		 	<img src="image/2.jpg">
+		 	 <h2>Blocks until halving</h2>
+		 	 <i>53</i>
+		 </div>
+		 <div class="curent_block">
+		 	<img src="image/3.jpg">
+		 	<h2>BTC Price</h2>
+		 	<i>8,770.23$</i>
+		 </div>
+	</section>
+
+<script type="text/javascript">
+	  function timenow(){
+    	var dateObject = new Date();
+  var hours = dateObject.getHours();
+  var minutes = dateObject.getMinutes();
+  var seconds = dateObject.getSeconds();
+  var currenttime = hours +":"+ minutes +":"+ seconds+" AM";
+  document.querySelector(".count_down_div").innerHTML = currenttime;
+} 
+setInterval(timenow,1000);
+</script>
+
+
+</body>
+</html>

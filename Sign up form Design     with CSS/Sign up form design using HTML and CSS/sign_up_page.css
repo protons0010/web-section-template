@@ -1,0 +1,33 @@
+
+*{margin:0;padding:0;}
+
+.containner{background:linear-gradient(4deg,#c42121,#163620);width:100%;height:100vh;}
+
+.btc{position: absolute;top: 50%;left:calc(50% - 80px);transform:translate(-50%,-50%);background:#ddd;}
+
+.sign_up_page {padding:4px 40px;}
+
+ .sign_up_page h2{padding:10px 20px;color:orange;font-family:arial black;text-align:center;}
+
+ .inputfield{padding:8px;margin:10px;display:block;color:#123;}
+
+.inputfield input{background:none;border:none;outline:none;padding:5px 10px;text-align: center;margin-left:30px;
+box-shadow:inset 5px 5px 10px #b6a9a9,-5px -5px 10px #eee; border-radius:12px;}
+
+.inputfield input::placeholder{color:#123;font-size:16px;font-family:cursive;}
+
+.select{background:#48dbfc;border-radius:14px;padding:4px;margin:10px auto;position:relative;left:17%;}
+
+.select option{background:#fff;color:#123;border:.4px solid orange;border-radius:5px;padding:5px;
+box-shadow:inset 5px 5px 10px #b6a9a9,-5px -5px 10px #eee;text-transform:capitalize;}
+
+.gender {padding: 10px;margin: 21px 43px;font-size:18px;}
+
+.inputfield_hobbies{margin:3px 20px;}
+
+.inputfield_hobbies input{margin:5px 5px;}
+
+.submitButton{background:#d23714;color:white;padding:8px;text-align:center;width:56%;border:1px solid #0d2d3c;
+	border-radius:5px;margin:10px 80px;}
+
+.submitButton a{text-decoration:none;color:#ddd;font-size:18px;font-family:cursive;}

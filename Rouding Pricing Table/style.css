@@ -1,0 +1,19 @@
+*{margin:0;padding:0;}
+
+body{margin:0;padding:0;background:#fff;box-sizing:border-box;}
+
+
+.Pricing_Table{max-width:1200px;margin:auto;justify-content:center;
+align-items:center;display:flex;flex-wrap:wrap;}
+
+
+.Pricing_Table h1{text-align:center;display:block;width: 100%;margin: 55px;}
+
+.Table{flex:25%;max-width:200px;height:200px;border-radius:50%;margin:12px;background:#48dbfb;text-align:center;margin:auto;}
+
+
+span {margin-top:20px;display:block;font-size:22px;font-weight:800;font-variant:unset;color:#123;}
+
+p {padding:20px;color:#123;}
+
+.box b{font-size:34px;}

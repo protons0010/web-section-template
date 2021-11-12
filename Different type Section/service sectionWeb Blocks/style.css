@@ -1,0 +1,50 @@
+*{margin:0;padding:0;}
+body{font-family: arial;font-size:15px;line-height: 25px;color:#333;}
+h1,h2,{font-family: arial black;}
+
+.serviceBlock{background: #ddd;padding:12px;overflow:hidden;line-height:20px;display:inline-block;width:355px;
+	          border: 2px solid green;border-radius: 6px ;margin:0px 2px;
+	          animation-name: xoomInMyBoxes;
+	          animation-duration: 2s;
+	          transition: all 1s;
+	          }
+
+.leftcontent img{width: 50px;}
+
+.serviceBlock:hover{background: transparent;color:white;cursor: pointer;
+	              transform: translateY(360deg) }
+
+@keyframes xoomInMyBoxes{
+
+          from{transform:scale(0)}
+          to{transform: scale(1)}
+	}
+.leftcontent{width: 70px;bottom: 20px;float: left;margin-top: 22px;}
+
+.rightcontent{width: 264px;float: right;}
+
+.rightcontent h2{margin-bottom: 13px;font-size: 19px; }
+
+.rightcontent p{font-size: 12px;}
+
+.leftcontent,.rightcontent{display: inline-block;}
+
+.allblock {width: 1170px;margin: auto;margin-top: 25px;}
+
+.sectionBlock1 {background:#000000;margin-bottom:-2px;padding-top: 33px;}
+
+.sectionBlock2 {padding:0px 0px;margin-top: 2px;background:#000000;}
+
+.blockheader  h1 span{color:orange;}
+
+ .blockheader1{color:white;text-align: center;}
+
+.blockheader2{font-size: 30px;margin-bottom: 40px;text-align: center;color:white;padding-top: 50px;}
+
+.linebreak{background: black;}
+
+.rahat{text-align: center;color: white;border: 1px solid green;width: 464px;margin-top: 0px;margin-left: 500px;font-size:18px;
+	height: 29px;}
+
+.rahat:hover{width:350px;height: 40px;color: yellow;font-family:arial;font-size: 12px;background-color:blue;}
+

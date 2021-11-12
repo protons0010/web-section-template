@@ -1,0 +1,21 @@
+*{margin: 0;padding:0;}
+body{padding-top: 20px;}
+
+
+div.allBlocks{background: #f7f7;width:1300px;height:450px;display: inline-block;margin: 20px;}
+
+div.mainBlock{background-color: #999;color: black;width: 250px;margin-top:6px;margin-bottom:6px;
+	 margin-left: 111px;
+    border:1px solid #ddd;border-radius: 5px;padding:24px;float: left; height: 369px;}
+
+div.mainBlock:hover{border:3px solid orange;margin-top:12px;}
+
+img{width:100px;}
+
+div.layers{text-align:center;background: #ddd;width: 111px;margin: auto;
+    margin-top: 10px;}
+
+div.mainBlock h1{padding:6px;text-align: center;font-size: 22px;border-bottom: 1px solid orange;
+    margin-bottom: 12px;width: 200px;margin:auto;}
+
+div.span{font-style: italic;font-size: 17px;margin-top: 23px;}

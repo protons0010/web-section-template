@@ -1,0 +1,30 @@
+*{margin:0px;padding:0px;}
+	body{font-family:arial;background:black;}
+     
+
+	.header{text-align: center;font-style:italic;font-size:40px;margin-top:30px;color:#ddd;}
+	.header span{color:orange;}
+	div{margin:50px 50px 50px 50px;background: #30bae7;padding:50px;border:1px solid orange;max-width:200px;
+		text-align:center;display:inline-block;border-radius:5px;transition: all .9s;/*box-shadow:2rem 1rem 32rem 2rem rgb(165, 108, 8);*/
+	}
+.service-section:first-child{
+	padding-top: 90px;
+	margin-top: -80px;
+}
+
+
+	div:hover{background: transparent;color:white;cursor: pointer;transform: translateY(-20px);}
+
+	div:hover .dollerSign{color:#123;background:orange;}
+
+	.dollerSign{color:orange;background:#273a71;padding:20px 35px 20px 35px;border-radius:4px;}
+	
+	#AmarTitle{padding:30px 0px 20px 0px;}
+    
+    #AmarTitle p{font-family:arial black;font-size:18px;justify-content: space-between;}
+/*End Service Section*/
+
+/*Start Team Section */
+
+
+/*End Team Section */

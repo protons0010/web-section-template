@@ -1,0 +1,42 @@
+*{margin:0;padding:0;box-sizing:border-box;background:white;}
+
+body{background:red;}
+
+img{width:30px;height:30px;border-radius:50%;}
+
+
+.bitcoin{width:500px; background:#111;position:absolute;padding:20px;
+	left:50%;top:50%;transform:translate(-50%,-50%);}
+
+.top_div{background:#111;position:relative;}
+
+.top_div h1{font-size:16px;font-family:sans-serif;color:#fff;padding:9px 9px;display:inline-block;background:#111;}
+
+.top_div button{border:1px solid;padding:5px 50px;background:orange;
+	display:inline-block;border-radius:5px;position: absolute;top:12px;right:7px;}
+
+.image{width:442px;padding:42px;margin:9px;background:#123;
+	border-bottom-right-radius:5px;
+border-bottom-left-radius:5px;position:relative; }
+
+.image img{width:56px;height:56px;position: absolute;left:43%;top:1%;}
+
+
+.count_down_div{
+	width:442px;
+	margin:0px 9px;
+	background:#ffa500c2;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	font-size:57px;
+	text-align: center;
+	padding:11px;
+	font-family: cursive;
+	}
+
+.curent_block {max-width:470px;padding:10px;margin:9px;text-align: center;background:#123;
+color: #d0cfcf;border-radius:5px;}
+
+.curent_block h2{font-family:sans-serif;}
+
+.curent_block h2, i{font-size:17px;padding:6px;font-weight:300;margin-top:5px;background:#123;}

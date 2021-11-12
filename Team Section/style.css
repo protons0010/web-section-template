@@ -1,0 +1,36 @@
+*{margin:0;padding:0;}
+
+body{background:#ddd;font-family:cursive;}
+
+.team_section{background:#ddd;width:100%;}
+
+.team_section h2{text-align:center;padding:15px;}
+
+.team_section p{text-align:center;margin-bottom:20px;}
+
+.team{max-width:1200px;width:100%;margin:auto;justify-content:center;align-items:center;display:flex;flex-wrap:wrap;}
+
+.member_details{flex:33.33%;max-width: 260px;height: 300px;box-sizing:border-box;margin:10px;background:#fff;padding:10px;margin:5px;border-radius:23px;}
+
+.member_details img{width: 69%;height:auto;border-radius:50%;display:block;margin:auto;}
+
+
+.member_details h3 {width:50%;overflow:hidden;text-align:center;padding:5px 0px;display:block;margin:auto;}
+
+.member_details span{display:block;text-align: center;width:50%;display:block;margin:auto;color:#ff04d5;}
+
+.sm{text-align:center;}
+
+.sm a{background-color: #ddd;margin:10px;padding: 8px 10px;border-radius: 30px;line-height: 60px;}
+
+.sm a:hover{margin-bottom:-10px;}
+
+i.fa.fa-facebook {
+    font-size: 22px;
+}
+
+
+
+@media (max-width:800px){
+	.member_details{flex:100%;}
+}

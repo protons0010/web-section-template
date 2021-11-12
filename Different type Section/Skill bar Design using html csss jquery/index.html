@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Skill Bar Design </title>
+	<script src="jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    
+<div class="skills">
+
+  <div class="full_bar">
+	<div class="skill">
+		<div class="skill_name">HTML</div>
+		<div class="skill_bar">
+			<div class="skill_person" per="98"></div>
+		</div>
+	</div>
+ </div>
+
+
+  <div class="full_bar">
+	<div class="skill">
+		<div class="skill_name">CSS</div>
+		<div class="skill_bar">
+			<div class="skill_person" per="95"></div>
+		</div>
+	</div>
+  </div>
+
+
+ <div class="full_bar">
+	<div class="skill">
+		<div class="skill_name">JAVASCRIPT</div>
+		<div class="skill_bar">
+			<div class="skill_person" per="84"></div>
+		</div>
+	</div>
+ </div>
+
+ <div class="full_bar">
+	<div class="skill">
+		<div class="skill_name">Python</div>
+		<div class="skill_bar">
+			<div class="skill_person" per="80"></div>
+		</div>
+	</div>
+ </div>
+
+ <div class="full_bar">
+	<div class="skill">
+		<div class="skill_name">Php</div>
+		<div class="skill_bar">
+			<div class="skill_person" per="70"></div>
+		</div>
+	</div>
+ </div>
+
+  <div class="full_bar">
+	<div class="skill">
+		<div class="skill_name">Cryptography</div>
+		<div class="skill_bar">
+			<div class="skill_person" per="89"></div>
+		</div>
+	</div>
+ </div>
+
+  <div class="full_bar">
+	<div class="skill">
+		<div class="skill_name">Blockchain</div>
+		<div class="skill_bar">
+			<div class="skill_person" per="65"></div>
+		</div>
+	</div>
+ </div>
+
+ <div class="full_bar">
+	<div class="skill">
+		<div class="skill_name">MySql</div>
+		<div class="skill_bar">
+			<div class="skill_person" per="47"></div>
+		</div>
+	</div>
+ </div>
+
+
+ <div class="full_bar">
+	<div class="skill">
+		<div class="skill_name">C#</div>
+		<div class="skill_bar">
+			<div class="skill_person" per="23"></div>
+		</div>
+	</div>
+ </div>
+
+  <div class="full_bar">
+	<div class="skill">
+		<div class="skill_name">Data Science</div>
+		<div class="skill_bar">
+			<div class="skill_person" per="76"></div>
+		</div>
+	</div>
+ </div>
+
+
+
+
+
+</div>
+<script>
+	$('.skill_person').each(function(){
+		var $this = $(this);
+		var per = $this.attr('per');
+		$this.css("width",per+'%');
+		// $({animatedValue: 0}).animate({animatedValue: per},{
+		// 	duration:1000,
+		// 	step :function(){
+		// 		$this.attr('per',Math.floar(this.animatedValue));
+		// 	},
+		// 	complete:function(){
+		// 		$this.attr('per',Math.floar(this.animatedValue));
+		// 	}
+		// });
+	});
+</script>
+
+
+</body>
+</html>

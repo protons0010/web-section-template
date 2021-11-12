@@ -1,0 +1,54 @@
+*{margin:0;padding:0;}
+
+body{margin:0;padding:0;background-image: linear-gradient(#E91E63,#2196F3),url(1.jpg);background-size: cover;}
+
+
+.blocks {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%); padding:50px;}
+
+
+#hasan{font-size: 70px;color: rgba(52,72,107,1);box-shadow: inset -1px 6px 20px 0px rgba(0,0,0,0.9),
+ inset -4px -4px 6px -1px rgba(255,255,255,0.9), -0.5px -0.5px 0 rgba(255, 255, 255, 0.22),
+  0.5px 0.5px 0 rgba(0, 0, 0, 0), 1px 5px 20px 6px rgb(163 141 135 / 0%);
+
+
+  border: 1px solid rgba(0, 0, 0, 0);
+
+
+  padding: 50px;text-align: center;color: #123;}
+
+
+h1 {font-size:22px;font-weight:800;color:aqua;margin:30px;}
+
+
+.sm {margin:78px 20px;text-align: center;float:right;}
+
+.sm a {padding:20px;margin:0px 6px;color:white;border-radius:3px;background:#48dbfb;
+    box-shadow: 4px 4px 6px -1px rgba(6, 134, 235, 0.98), -4px -4px 6px -1px #1096ff5c;}
+
+.sm a i{font-size:21px;}
+
+.sm a:hover i{color:#123; }
+
+i.fa.fa-envelope {color: #795548;padding: 6px;}
+
+i.fa.fa-briefcase {padding:6px;color:#795548;}
+
+i.fa.fa-paper-plane {color:#795548;padding:6px;}
+
+.date {
+    margin-top: -53px;
+    justify-content: space-evenly;
+}
+
+span {
+    padding: 20px 13px;
+    margin-left:56px;
+}
+
+
+h3 {
+    margin-top: 76px;
+    display: inline-block;font-size:27px;color:orange;
+}
+
+span:last-child{margin-left:38px;}

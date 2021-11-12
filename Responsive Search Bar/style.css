@@ -1,0 +1,13 @@
+*{margin:0;padding:0;font-family:"Open Sans",sans-serif;box-sizing:border-box;margin-bottom: 10px;}
+
+
+.search-box{width:80px;height:80px;background:#2980b9;float:right;overflow: hidden;position: relative;}
+
+
+
+.btn{font-family: Ionicons;width:80px;height:80pc;background:#2980b9;position: absolute;top:0;right:0;z-index: 1;cursor: pointer;color:white;font-size:40px;display:flex;justify-content: center;align-items: center;}
+
+
+.btn:before{content: '\f2f5'}
+
+.btnc:before{content: '\f12a'}

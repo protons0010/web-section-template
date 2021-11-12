@@ -1,0 +1,15 @@
+body{background:#326083;}
+
+h1{color:white;text-align:-webkit-center;padding:20px;list-style:italic;font-family:sans-serif;}
+
+h2{color:white;padding:20px;font-style:italic;font-family:serif;}
+
+.register{margin-left:400px;}
+
+label{color:white;font-size:22px;font-style:italic;padding-bottom:20px;}
+
+.name{width:300px;padding:8px;border:none;border-radius:3px;outline:0;}
+
+
+.btn{width:150px;padding:8px;font-size:18px;font-style:italic;outline:none;border-radius:3px;display:block;margin:20px 0;color:#123;
+border:none;}

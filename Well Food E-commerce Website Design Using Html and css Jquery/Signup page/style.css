@@ -1,0 +1,56 @@
+*{margin:0;padding:0;}
+
+body {
+    background: #ddd;
+}
+
+.sign_up_page{max-width:400px;padding:22px 44px 0px 0px;background: aliceblue;position: absolute;top: 10%;left: 20%;}
+
+
+input {
+    display: block;
+    margin: 16px 28px;
+    width: 90%;
+    padding: 5px 22px;
+    border-radius: 3px;
+    border-width: thin;
+    box-sizing: border-box;
+}
+
+
+input::placeholder{font-weight:200;opacity:0.7;}
+
+h1 {
+    padding: 22px 0px 22px 22px;
+    font-size: 24px;
+    text-align: left;
+    
+}
+
+
+select {
+    margin: 12px 28px;
+    padding: 6px 10px;
+    background: white;
+    display: block;
+    text-align: left;
+   
+}
+
+button.btn {
+    background: grey;
+    padding: 12px 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-family: cursive;
+    margin: 12px;
+}
+
+.page_footer {
+    padding: 22px;
+    background: red;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}

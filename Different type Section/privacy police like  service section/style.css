@@ -1,0 +1,28 @@
+margin-right{margin:0;padding:0;}
+
+body{background-color:#5a4a4a;font-size: 16px;font-weight: 12px;font-family:arial black;color: white;}
+
+
+div.MainBlocks{border:1px solid orange;border-radius: 4px;width: 350px;margin:auto;margin-top: 40px;
+	display: inline-block;margin-left: 20px;}
+
+div.DollerSign{padding-bottom: 16px;padding-top: 20px;text-align: center;color: orange;background: #D4D1D1;
+    width: 73px;margin:auto;margin-top: 20px;text-decoration: line-through;font-size: 11px;border-radius: 4px;}
+
+div.header{padding-top:10px;padding-bottom: 10px;text-align: center; color: orange; border-bottom: 1px solid red; display: inline-block; margin-left: 91px;}
+
+div.Article{padding: 20px 30px; font-size: 14px; line-height: 25px; border: 2px solid lightblue; margin: 14px 14px 14px 14px; }
+
+div.Article:hover{font-size: 13px;background-color: #D4D1D1;color:black;margin: 6px 14px 14px 14px;text-align: justify-all;}
+
+div.div.MainBlocks:hover{background-color: #D4D1D1;margin-top: 20px;}
+
+div.box{text-align:center;margin:auto;border:2px dashed red;border-radius: 7px;font-size: 12px;
+	width: 280px;margin-top: 1px; text-decoration: overline;}
+
+div.creator{margin: auto;text-align: center;margin-bottom:18px;border-bottom: 2px solid orange;display: inline-block;
+	padding-bottom:0px;height: 62px;margin-left: 570px;font:x-large; }
+
+div.copy{border:1px solid orange;border-radius: 5px;font-size: 12px;width:333px;margin: auto; border-collapse: collapse;
+}
+
